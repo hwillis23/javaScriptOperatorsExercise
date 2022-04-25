@@ -1,3 +1,4 @@
+//Exercise 1
 let a =20;
 let b = 4;
 let add = a +b;
@@ -22,11 +23,11 @@ let isPresent = true;
 let firstName = "Jackie";
 let lastName = "Chan";
 
-console.log(c + str); 
-console.log(c + str2);
-console.log(c + isPresent);
-console.log(c + firstName);
-console.log(c + lastName);
+console.log(c + str); //1111
+console.log(c + str2); //11eleven
+console.log(c + isPresent); //12
+console.log(c + firstName); //11Jackie
+console.log(c + lastName); //11Chan
 
 //Exercise 3 
 let d = 5;
@@ -39,7 +40,7 @@ let lastName2 = "Williams";
 console.log(d == str3); //true
 console.log(d === str4); //false 
 console.log(!isPresent2); //true
-console.log("eleven" == str3 && d>= str4); //false 
+console.log("eleven" == str4 && d>= str3); //false 
 console.log(!isPresent2 || isPresent2); //true 
 console.log(0 == false); //true 
 console.log(0 === false); //false
